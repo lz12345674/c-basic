@@ -1,0 +1,16 @@
+# include <stdio.h>
+
+int main(void)
+    {
+        static int i = 5;
+        int k;
+        
+        for(k = 0; k < 10; k++)
+            {
+                int m = 10;
+                printf("m = %d      i = %d\n", m++, i++);
+            }
+
+        return 0;
+        
+    }
